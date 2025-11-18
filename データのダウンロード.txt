@@ -1,0 +1,48 @@
+事前にarchive.zip をダウンロードしていますが、
+以下がダウンロード手順です。
+
+
+次のURLをブラウザで開きダウンロードして下さい。
+Kaggleのサインインが必要な場合はしてください。
+https://www.kaggle.com/datasets/chetankv/dogs-cats-images
+ダウンロードフォルダにできた　archive.zip　を
+yolo2フォルダに移動して下さい。
+
+ターミナルを起動して、yolo2フォルダに移動して
+unzip archive.zip として、解凍して下さい。
+dog vs cat/data というフォルダができます。
+
+その中に　写真が入っています。
+
+データのライセンスは
+CC0 1.0 Universal
+です。
+
+
+ * データ構造が違うので、ぷろぐらむの修正が必要
+
+
+
+microsoftのサインインが必要な場合はしてください。
+
+https://www.microsoft.com/en-us/download/details.aspx?id=54765
+
+ダウンロードフォルダにできた　kagglecatsanddogs_5340.zip　を
+
+yolo2フォルダに移動して下さい。
+
+ターミナルを起動して、yolo2フォルダに移動して
+
+unzip kagglecatsanddogs_5340.zip として、解凍して下さい。
+
+PetImages というフォルダができます。
+
+その中に　犬と猫の写真が入っています。
+
+ライセンスについて、
+本データにはライセンスが付与されていません。
+そのため教材／勉強用としてユーザーでダウンロードして使用することは問題は少ないと思います。
+ただし、ダウンロードしたデータを再配布は絶対にしないでください。
+
+以下にデータあり
+https://www.kaggle.com/datasets/chetankv/dogs-cats-images

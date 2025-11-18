@@ -1,0 +1,4 @@
+train: ./dataset_syl/images/train
+val: ./dataset_syl/images/val
+nc: 2
+names: ['cat', 'dog']

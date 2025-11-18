@@ -1,0 +1,17 @@
+
+
+最初は学習回数を2回として試す。
+
+yolo detect train data=data.yaml model=yolov8n.pt epochs=2 imgsz=128
+
+Runs フォルダの奥の方に
+/runs/detect/train2/weights/best.pt
+できたモデルがあるので、5_detect.py best.ptのパスを修正する
+学習ごとにtrainの数字が増えるので変更が必要
+
+
+epochsを10から40
+imgsz=128 256 
+くらいで試してみる
+
+yolo detect train data=data.yaml model=yolov8n.pt epochs=10 imgsz=128

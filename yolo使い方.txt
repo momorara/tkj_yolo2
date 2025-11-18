@@ -1,0 +1,24 @@
+Yoloのインストール
+
+Yolo8
+pip install ultralytics
+python -m pip install pillow
+
+YOLOv10などはGitHubのリポジトリをクローンが必要など少し面倒です。
+　
+
+yolo detect train data=data.yaml model=yolov8n.pt epochs=3 imgsz=320
+
+yolo detect train data=data.yaml model=yolov8n.pt epochs=10 imgsz=240
+
+
+
+
+# data.yaml
+train: ./dataset_syl/images/train
+val: ./dataset_syl/images/val
+nc: 2
+names: ['cat', 'dog']
+
+
+yolo classify train data=dataset model=yolov8n-cls.pt epochs=20 imgsz=224
